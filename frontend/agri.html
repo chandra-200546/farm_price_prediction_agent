@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APMC Intelligence</title>
+    <link rel="stylesheet" href="agri.css" />
+</head>
+
+<body>
+
+    <header>
+        <h1>APMC Intelligence</h1>
+        <p id="subtitle">Smart Agricultural Price Advisory</p>
+
+        <div class="lang-switch">
+            <button onclick="setLang('en')">EN</button>
+            <button onclick="setLang('kn')">ಕನ್ನಡ</button>
+            <button onclick="setLang('hi')">हिंदी</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search commodity..." oninput="filterCommodities()" />
+            <div id="suggestions"></div>
+        </div>
+
+        <div id="result"></div>
+    </main>
+
+    <footer>
+        © 2026 APMC Intelligence
+    </footer>
+
+    <script src="agri.js"></script>
+</body>
+
+</html>
