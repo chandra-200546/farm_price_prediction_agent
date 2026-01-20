@@ -1,0 +1,1 @@
+Farm Price Prediction Agent is an AI-driven system using APMC market data to forecast future crop prices and assist farmers in decision-making. The model predicts prices, suggests whether to store or sell produce, and estimates potential profit based on storage duration.
